@@ -5,9 +5,13 @@ This project utilizes OpenCV and the **MediaPipe Hands** model to detect a hand 
 
 ## Project Structure
 📂 Hand-Tracking-Finger-Counter
-├── 📜 Hand_Track.py → Handles hand detection and landmark extraction
-├── 📜 Counter.py → Uses Hand_Track.py to count the number of extended fingers
-├── 📜 README.md → Project documentation
+│   ├── Hand_Track.py → Handles hand detection and landmark extraction
+│   ├── Counter.py → Uses Hand_Track.py to count the number of extended fingers
+│   ├── README.md → Project documentation
+│   ├── luca1.jpg
+│   ├── luca2.jpg
+│   ├── luca3.jpg
+│   ├── peter-cat.jpg
 
 perl
 Copy
