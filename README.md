@@ -28,6 +28,7 @@ Ensure the following Python libraries are installed:
 ---
 
 Features
+
 ✅ Modular Code: Hand_Track.py for hand tracking, Counter.py for finger counting.
 
 ✅ Real-time FPS Calculation for performance monitoring.
