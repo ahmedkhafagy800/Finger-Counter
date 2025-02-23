@@ -13,12 +13,19 @@ This project utilizes **OpenCV** and the **MediaPipe Hands** model to detect han
 
 ---
 
+
 ## Dependencies
 
-Ensure the following Python libraries are installed:
+Download pycharm:
+https://www.jetbrains.com/pycharm/download/?section=windows (PyCharm Community Edition)
 
-```bash
-pip install opencv-python mediapipe
+
+Ensure the following Python libraries are installed:
+1) cameracv2 : Used for capturing and processing images from the webcam.
+2) mediapipe : Provides the hand tracking model for detecting hand landmarks.
+3) numpy : Used for numerical computations (e.g., processing coordinates).
+
+---
 
 Features
 ✅ Modular Code: Hand_Track.py for hand tracking, Counter.py for finger counting.
@@ -30,3 +37,5 @@ Features
 ✅ Finger Counting Logic using MediaPipe Hand Landmarks.
 
 ✅ Error Handling for missing hands.
+
+
