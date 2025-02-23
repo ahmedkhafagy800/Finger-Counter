@@ -8,12 +8,25 @@ This project utilizes OpenCV and the **MediaPipe Hands** model to detect a hand 
 # Hand Tracking and Finger Counter
 
 ## Project Structure
-hand-tracking/ ├── data/ │ ├── numbers/ │ │ ├── 0.png │ │ ├── 1.png │ │ ├── 2.png │ │ ├── 3.png │ │ ├── 4.png │ │ ├── 5.png │ ├── test_images/ │ │ ├── hand1.jpg │ │ ├── hand2.jpg │ │ ├── ... ├── models/ │ ├── hand_tracking_model.pb ├── Hand_Track.py ├── Counter.py ├── requirements.txt ├── README.md └── LICENSE
+hand-tracking/ 
+├── data/  
+│ ├── numbers/ 
+│ │ ├── 0.png 
+│ │ ├── 1.png 
+│ │ ├── 2.png 
+│ │ ├── 3.png 
+│ │ ├── 4.png 
+│ │ ├── 5.png 
+├── models/ 
+│ ├── hand_tracking_model.pb
+├── Hand_Track.py 
+├── Counter.py 
+├── requirements.txt 
+├── README.md 
+└── LICENSE
 
 
-perl
-Copy
-Edit
+
 
 ## Installation
 Make sure you have the required dependencies installed:
